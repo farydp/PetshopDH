@@ -1,3 +1,85 @@
-class{
-    background-color: aqua;
+header{
+    background-color: black;
+    color: white;
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.my-icon{
+    font-size: 24px;
+    color: white;
+}
+
+#menu-superior{
+    background-color: #F0A83E;
+    color: white;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#portada{
+    width: 1025;
+    height: 409px;
+    background-image: url("../img/bowl.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#texto-portada{
+    text-align: center;
+}
+
+.boton-comederos{
+    background-color:#F0A83E;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+.parrafo-intermedio{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.seccion-saludo-portada{
+    background-color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#Pata-grande{
+    text-align: center;
+}
+
+#productos-destacados{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+ul.accesos{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.imagenes-productos-destacados{
+    font-weight: 500;
+}
+
+.color-precios{
+    color: #F0A83E;
+}
+
+.color-nombre-producto{
+    color: #3C2313;
+}
+
+ul#cajas-de-texto input{
+    background-color: #3C2313;
+    color: white;
 }

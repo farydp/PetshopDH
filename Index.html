@@ -3,68 +3,94 @@
     <head>
         <meta charset="UTF-8">
         <title>Petshop sólo HTML</title>
+        <link href="CSS/Style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
         <header> 
-            <span> Grandes ofertas en comederos </span>
-            <span> Español </span>
-            <span> ARG$ </span>
-        </header>
-        <main>
-            <section id="menu superior">
-                <img src="./img/fondocatdog.png" alt="Imágen logo cant&dog">
-                <span> Categorías </span>
-                <span> Pets  </span>
-                <span> Nosotros </span>
-                <span> Contáctanos </span>
+            <section>
+                <span> Grandes ofertas en comederos </span>
             </section>
-            <section id="portada">
-                <img src="./img/bowl.png" alt="Imagen tazon de comida de perro">
+            <section>
                 <ul type="none">
-                    <li> ¡Es un placer tenerte aquí!</li>
-                    <li> ¡Comederos en descuento !</li>
-                    <li> COMEDEROS </li>
+                    <li>Español </li>
+                    <li>ARG$</li>
                 </ul>
             </section>
-            <section id="productos destacados">
+        </header>
+        <main>
+            <section id="menu-superior">
+                <ul type="none">
+                    <li>
+                        <img src="./img/fondocatdog.png" alt="Imágen logo cant&dog">
+                    </li>
+                    <li>
+                        <ul type="none">
+                            <li><i class="fa fa-paw my-icon"></i>Categorías</li>
+                            <li><i class="fa fa-paw my-icon"></i>Pets</li>
+                            <li><i class="fa fa-paw my-icon"></i>Nosotros</li>
+                            <li><i class="fa fa-paw my-icon"></i>Contáctanos</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section id="portada">
+                <ul type="none">
+                    <article id="texto-portada">
+                        <li class="seccion-saludo-portada"> ¡Es un placer tenerte aquí!</li>
+                        <li class="parrafo-intermedio"> ¡Comederos en descuento !</li>
+                        <li class="boton-comederos"> COMEDEROS </li>
+                    </article>
+                </ul>
+            </section>
+            <section id="productos-destacados">
                 <article>
-                    <img src="img/patita.png" alt="Imagen patita">
-                    <h1> Productos Destacados </h1>
-                    <ul type="none">
-                        <li>Comederos</li>
-                        <li>Accesorios</li>
-                        <li>Comida</li>
-                    </ul>
+                        <p>
+                            <div id="Pata-grande"><img src="img/patita.png" alt="Imagen patita">
+                            <h1> Productos Destacados </h1>
+                        </p>
+                        <p>
+                            <ul type="none"  class="accesos">
+                                <li>Comederos</li>
+                                <li>-</li>
+                                <li>Accesorios</li>
+                                <li>-</li>
+                                <li>Comida</li>
+                            </ul>
+                        </p>
                 </article>
-                <article>
+                <article class="imagenes-productos-destacados">
                         <ul type="none">
                             <li>
                                 <img src="./img/churrasquito.png" alt="imagen Juguete churrasquito">
                             </li>
-                            <li>Juguete churrasquito</li>
-                            <li>$150</li>
+                            <li class="color-nombre-producto">Juguete churrasquito</li>
+                            <li class="color-precios">$150</li>
                         </ul>
                         <ul type="none">
                             <li>
                                 <img src="./img/comedero.png" alt="imagen comedero para perro">
                             </li>
-                            <li>Comedero para perro</li>
-                            <li>$250</li>
+                            <li class="color-nombre-producto">Comedero para perro</li>
+                            <li class="color-precios">$250</li>
                         </ul>
                         <ul type="none">
                             <li>
                                 <img src="./img/Huesito.png" alt="imagen Juguete huesito">
                             </li>
-                            <li>Juguete huesito</li>
-                            <li>$650</li>
+                            <li class="color-nombre-producto">Juguete huesito</li>
+                            <li class="color-precios">$650</li>
                         </ul>
                 </article>
             </section>
             <section id="Contáctanos">
-                <ul type="none">
-                    <li>Nombre y apellido</li>
-                    <li>Ingresa tu correo electrónico</li>
-                    <li>Teléfono</li>
+                <ul type="none" id="cajas-de-texto">
+                    <input type="text" placeholder="Nombre y apellido">
+                    <input type="text" placeholder="Ingresa tu correo electrónico">
+                    <input type="text" placeholder="Teléfono">
                 </ul>
                 <span>Resetear</span>
                 <span>Enviar</span>
